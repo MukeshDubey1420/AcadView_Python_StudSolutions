@@ -1,3 +1,8 @@
+"""
+Tkinter Basics Class 1
+
+"""
+
 import tkinter  # Python 3 syntax as tkinter and 2.x as Tkinter ..
 
 m=tkinter.Tk(className='First window')   # Setting The Title Name ...
