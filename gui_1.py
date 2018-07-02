@@ -3,22 +3,22 @@ import tkinter  # Python 3 syntax as tkinter and 2.x as Tkinter ..
 m=tkinter.Tk(className='First window')   # Setting The Title Name ...
 m.mainloop()
 
-# Widgets
+# Introducing Widgets
 
 #   Button
-# import tkinter as tk
-#
-# r=tk.Tk()
-# r.title('Counting seconds')
-# button=tk.Button(r, text='Yello',width=25,highlightbackground='#ccff00')
-# button.grid(row=0)
-# button1=tk.Button(r, text='Stop',width=25,highlightbackground='red')
-# button1.grid(row=1,column=1)
-# r.mainloop()
+import tkinter as tk   # Alternate Method ..assigning tkinter as tk...
+
+r=tk.Tk()
+r.title('Counting seconds')
+button=tk.Button(r, text='Yello',width=25,highlightbackground='#ccff00')
+button.grid(row=0)
+button1=tk.Button(r, text='Stop',width=25,highlightbackground='red')
+button1.grid(row=1,column=1)
+r.mainloop()
 
 #   Canvas
 
-# from tkinter import *
+from tkinter import *   #Instead of writing tkinter.Tk() if we are doing so , there is no need to do that .. simply Tk() works ...
 #
 # master=Tk()
 # w=Canvas(master,width=200,height=100,bg='blue')
