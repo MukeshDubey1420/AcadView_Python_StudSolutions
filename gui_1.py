@@ -61,22 +61,22 @@ mainloop()
 
 #   Frame
 
-# from tkinter import *
-#
-# root=Tk()
-# frame=Frame(root)
-# frame.pack()
-# bottomframe=Frame(root)
-# bottomframe.pack(side = BOTTOM)
-# redbutton=Button(frame,text='Red',highlightbackground='red',fg='red')
-# redbutton.pack(side = RIGHT)
-# greenbutton=Button(frame,text='Green',highlightbackground='green',fg='green')
-# greenbutton.pack(side = LEFT)
-# bluebutton=Button(frame,text='Blue',highlightbackground='blue',fg='blue')
-# bluebutton.pack(side = LEFT)
-# blackbutton=Button(bottomframe,text='Black',highlightbackground='black',fg='black')
-# blackbutton.pack(side = BOTTOM)
-# root.mainloop()
+from tkinter import *
+
+root=Tk()
+frame=Frame(root)
+frame.pack()
+bottomframe=Frame(root)
+bottomframe.pack(side = BOTTOM)
+redbutton=Button(frame,text='Red',highlightbackground='red',fg='red')
+redbutton.pack(side = RIGHT)
+greenbutton=Button(frame,text='Green',highlightbackground='green',fg='green')
+greenbutton.pack(side = LEFT)
+bluebutton=Button(frame,text='Blue',highlightbackground='blue',fg='blue')
+bluebutton.pack(side = LEFT)
+blackbutton=Button(bottomframe,text='Black',highlightbackground='black',fg='black')
+blackbutton.pack(side = BOTTOM)
+root.mainloop()
 
 #   ListBox
 
