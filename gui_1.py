@@ -19,31 +19,31 @@ r.mainloop()
 #   Canvas
 
 from tkinter import *   #Instead of writing tkinter.Tk() if we are doing so , there is no need to do that .. simply Tk() works ...
-#
-# master=Tk()
-# w=Canvas(master,width=200,height=100,bg='blue')
-# w.pack()
-# w.create_line(0,10,200,10)
-# mainloop()
+
+master=Tk()
+w=Canvas(master,width=200,height=100,bg='blue')
+w.pack()
+w.create_line(0,10,200,10)
+mainloop()
 
 #   Checkpoint
 
-# from tkinter import *
-#
-# master=Tk()
-# var1=IntVar()
-# Checkbutton(master,text='male',variable=var1).grid(row=0,sticky='W')
-# var2=IntVar()
-# Checkbutton(master,text='female',variable=var2).grid(row=1,sticky='W')
-# mainloop()
+from tkinter import *
+
+master=Tk()
+var1=IntVar()
+Checkbutton(master,text='male',variable=var1).grid(row=0,sticky='W')
+var2=IntVar()
+Checkbutton(master,text='female',variable=var2).grid(row=1,sticky='W')
+mainloop()
 
 #   Label
-# from tkinter import *
-#
-# master=Tk()
-# w=Label(master,text='My first label')
-# w.pack()
-# master.mainloop()
+from tkinter import *
+
+master=Tk()
+w=Label(master,text='My first label')
+w.pack()
+master.mainloop()
 
 #   Entry
 # from tkinter import *
