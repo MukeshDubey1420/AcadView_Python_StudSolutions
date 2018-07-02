@@ -1,5 +1,5 @@
 '''
-Installation steps
+Installation steps.......
 1. First install mysql-community software(refer the link mentioned below)<br > https://www.youtube.com/watch?v=WuBcTJnIuzo
 
 2. Set path to be able to access mysql command-

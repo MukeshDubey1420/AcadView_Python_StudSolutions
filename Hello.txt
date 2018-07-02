@@ -1,0 +1,10 @@
+Hey Guys,
+
+To get started I'll list down a few steps so that it's easier for us all to collaborate together-
+
+1. Download GitKraken (https://www.gitkraken.com/download) this will give us an easy   medium to visualise the commits made to our repository. You can run command line arguments even after downloading GitKraken, simply execute git commands how you were before. 
+2. Once downloaded go to File > Clone Repo
+   Here you'll be asked to fill out:
+   Where to clone to - Pick a folder from your Desktop
+   URL - https://github.com/nayan-mehta/demo.git (This link can be found on your Github repository for demo. Look towards the right hand side there's a green button 'Clone or download'
+3. Click on 'Clone the repo!'. Now you'll have an identical clone of the repository we created last night. Feel free to explore by typing out a few statements in this document and check GitKraken it'll show you a pop-up saying 'File changes in Working Directory'> View Changes in the unstaged files once done click on Stage changes> Write a commit message and click on 'Commit changes method'. After which you'll need to click on push to push from local to remote. Basically these are all the steps we tried out yesterday through command line but GitKraken helps you visualize these better.
