@@ -1,6 +1,10 @@
 """
 Tkinter Basics Class 1
 
+Python offers multiple options for developing GUI (Graphical User Interface). Out of all the GUI methods, tkinter is most commonly used method.
+It is a standard Python interface to the Tk GUI toolkit shipped with Python.
+Python with tkinter outputs the fastest and easiest way to create the GUI applications. Creating a GUI using tkinter is an easy task
+
 """
 
 import tkinter  # Python 3 syntax as tkinter and 2.x as Tkinter ..
@@ -12,7 +16,6 @@ m.mainloop()
 
 #   Button
 import tkinter as tk   # Alternate Method ..assigning tkinter as tk...
-
 r=tk.Tk()
 r.title('Counting seconds')
 button=tk.Button(r, text='Yello',width=25,highlightbackground='#ccff00')
