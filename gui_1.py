@@ -5,6 +5,16 @@ Python offers multiple options for developing GUI (Graphical User Interface). Ou
 It is a standard Python interface to the Tk GUI toolkit shipped with Python.
 Python with tkinter outputs the fastest and easiest way to create the GUI applications. Creating a GUI using tkinter is an easy task
 
+To create a tkinter:
+
+Importing the module – tkinter
+Create the main window (container)
+Add any number of widgets to the main window
+Apply the event Trigger on the widgets.
+Importing tkinter is same as importing any other module in the python code.
+
+Note that the name of the module in Python 2.x is ‘Tkinter’ and in Python 3.x is ‘tkinter’.
+
 """
 
 import tkinter  # Python 3 syntax as tkinter and 2.x as Tkinter ..
@@ -23,6 +33,22 @@ button.grid(row=0)
 button1=tk.Button(r, text='Stop',width=25,highlightbackground='red')
 button1.grid(row=1,column=1)
 r.mainloop()
+
+
+#   Button
+import tkinter as tk   # Alternate Method ..assigning tkinter as tk...
+r=tk.Tk()
+r.title('My App ')
+r.geometry("250x250")
+r.resizable(True,False)
+r.minsize(200,200)
+r.maxsize(300,300)
+button=tk.Button(r, text='Yello',width=25,highlightbackground='#ccff00')
+button.pack()
+r.mainloop()
+
+
+
 
 #   Canvas
 
