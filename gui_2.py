@@ -6,7 +6,6 @@
 
 
 
-
 #MenuButton
 # from tkinter import *
 # top = Tk()
@@ -97,11 +96,11 @@
 # top.mainloop()
 
 #SpinBox
-from tkinter import *
-master = Tk()
-w = Spinbox(master, from_ = 0, to = 10)
-w.pack()
-mainloop()
+# from tkinter import *
+# master = Tk()
+# w = Spinbox(master, from_ = 0, to = 10)
+# w.pack()
+# mainloop()
 
 #Paned Window
 # from tkinter import *
