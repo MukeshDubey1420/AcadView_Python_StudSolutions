@@ -1,17 +1,17 @@
 #MenuButton
-from tkinter import *
-top = Tk()
-mb = Menubutton(top, text= "Menu")
-mb.grid()
-mb.menu = Menu(mb)
-mb['menu']= mb.menu
-cVar = IntVar()
-aVar = IntVar()
-mb.menu.add_checkbutton(label='Contact', variable=cVar)
-mb.menu.add_checkbutton(label='About', variable=aVar)
-print(cVar.get(),aVar.get())
-mb.pack()
-top.mainloop()
+# from tkinter import *
+# top = Tk()
+# mb = Menubutton(top, text= "Menu")
+# mb.grid()
+# mb.menu = Menu(mb)
+# mb['menu']= mb.menu
+# cVar = IntVar()
+# aVar = IntVar()
+# mb.menu.add_checkbutton(label='Contact', variable=cVar)
+# mb.menu.add_checkbutton(label='About', variable=aVar)
+# print(cVar.get(),aVar.get())
+# mb.pack()
+# top.mainloop()
 
 #Menu
 # from tkinter import *
