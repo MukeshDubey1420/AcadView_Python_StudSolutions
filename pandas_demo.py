@@ -7,7 +7,7 @@
 # import the pandas library and aliasing as pd
 # import pandas as pd
 # s = pd.Series()
-# print(s)
+# print(s)            # Series([], dtype: float64)
 
 #   Series using ndarray
 #import the pandas library and aliasing as pd
@@ -31,18 +31,24 @@
 # import pandas as pd
 #
 # df=pd.read_csv('EventSample.csv')
-# print(type(df))
+# print(type(df))         # <class 'pandas.core.frame.DataFrame'>
 #
 # df=pd.read_csv('EventSample.csv',header=None)
 # print(df)
 
 #Creating Dataframe from dict of ndarrays/lists
 
-# import pandas as pd
-# data = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}
-# df = pd.DataFrame(data)
-# df.loc[4]=['Lala',24]
-# print(df)
+import pandas as pd
+data = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}
+df = pd.DataFrame(data)
+df.loc[4]=['Lala',24]
+print(df)            #     Name  Age
+                    # 0    Tom   28
+                    # 1   Jack   34
+                    # 2  Steve   29
+                    # 3  Ricky   42
+                    # 4   Lala   24
+
 
 
 #Change indexes from default
