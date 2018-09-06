@@ -1,8 +1,8 @@
 # AcadView Python_Notes
 
-### Designed By @bansalkanav [Kanav Bansal](https://github.com/bansalkanav) Sir
+### Designed By [Kanav Bansal](https://github.com/bansalkanav) Sir
 
-### Updated And Edited By @MukeshDubey1420 [Mukesh Dubey](https://github.com/MukeshDubey1420)
+### Updated And Edited By [Mukesh Dubey](https://github.com/MukeshDubey1420)
 
 ## Chapters Covered---->
 
@@ -24,6 +24,7 @@
   15. Advance Topics<br>
   16. Databases -SQLite3<br>
   16_0. Databases - MySQL<br>
+  16_1. Databases - MySQL<br>
   17. Numpy<br>
   18. Pandas<br>
   19. GUI - 1<br>
@@ -35,7 +36,8 @@
   3. Mini Project - Car Game<br>
   4. Mini Project - Library Management System<br>
   5. Tweepy Basics<br>
-  6. Hangman Game<br>
+  6. Tweepy Basics<br>
+  7. Hangman Game<br>
 
 ## References
 
