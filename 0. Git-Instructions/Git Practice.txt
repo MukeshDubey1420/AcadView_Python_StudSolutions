@@ -1,0 +1,26 @@
+git config --global user.name "Your Github Username"
+git config --global user.email "Your Github Registered Email"
+
+git init
+git add .
+git add filename
+git commit -m "Your Update regarding msg here"
+git push origin master
+
+
+In Updating Mode Use Following Commands..
+
+git add . or git add filename
+git commit -m "Your Progress update, Like bug is resolved , new Feature added"
+git push origin master
+
+
+Using Clone Approach..
+
+git clone paste the link of repo here
+git add . or git add filename
+git commit -m "Your Progress update, Like bug is resolved , new Feature added"
+git push origin master
+
+
+
