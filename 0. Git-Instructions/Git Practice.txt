@@ -1,10 +1,15 @@
+When You installed Git first time on your system :- use the following 2 commands .
+
 git config --global user.name "Your Github Username"
 git config --global user.email "Your Github Registered Email"
+
+after registering yourself to Git , Now you can make repositories. By using Following steps.
 
 git init
 git add .
 git add filename
 git commit -m "Your Update regarding msg here"
+git remote add origin  paste the link of repo here..
 git push origin master
 
 
